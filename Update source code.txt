@@ -1,0 +1,13 @@
+{PER 2 Januari 2018}
+1. Perbaikan controller Auth di folder Admin pada function create_user. Pada bagian tambah user baru tidak berhasil/ hanya menampilkan form tambah user padahal data telah masuk ke db.
+2. Perbaikan hapus data user pada function delete_user.
+Pada bagian if($row) diganti menjadi if($delete)
+3. Penambahan echo pada form_close di file form_cari.php
+
+{PER 12 Juli 2018}
+Perbaikan ketika insert data di menu slider muncul error slug atau judul_seo
+
+{PER 7 September 2018)
+Perbaikan seller yang tidak bisa login setelah akun dibuat oleh user superadmin/ admin di halaman backend
+
+Apabila ada bug/ eror, silahkan laporkan ke saya, nanti akan diupdate segera mungkin.
